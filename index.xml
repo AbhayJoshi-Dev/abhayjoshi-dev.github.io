@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abhay Joshi</title>
+    <link>https://abhayjoshi-dev.github.io/</link>
+    <description>Recent content on Abhay Joshi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;CC BY-NC 4.0&lt;/a&gt;</copyright><atom:link href="https://abhayjoshi-dev.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Flappy Bird Clone</title>
+      <link>https://abhayjoshi-dev.github.io/flappybird/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhayjoshi-dev.github.io/flappybird/</guid>
+      <description>Classic Flappy Bird game made with SDL2 and C++.
+I want to build a game without using a game engine, so i picked SDL2 and C++.
+Implemented game mechanics like Collision Detection, Bird Movement, rendering is done with SDL&amp;rsquo;s built-in renderer.
+Font rendering is done with SDL_ttf.
+Learned a lot from this project(vector math and collision detection).
+Project is available in Github.</description>
+    </item>
+    
+    <item>
+      <title>Out Of Memory</title>
+      <link>https://abhayjoshi-dev.github.io/outofmemory/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhayjoshi-dev.github.io/outofmemory/</guid>
+      <description> 2D Shooter
+Out Of Memory is a 2d shooter game made for BYOG 2022 Game Jam.
+This game was made in 48 hrs with the help of another programmer.
+Implemented game mechanics and core programming(Player Shooting/Enemy Movement) with C# in Unity Engine.
+You can download the game from itch.io:
+Rescue Game by Abhay_Joshi, Abhishek Joshi </description>
+    </item>
+    
+    <item>
+      <title>Personal Projects</title>
+      <link>https://abhayjoshi-dev.github.io/projects/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhayjoshi-dev.github.io/projects/</guid>
+      <description>Some non commercial personal projects I&amp;rsquo;ve worked on!
+FlappyBird Clone A clone of Flappy Bird written in C++ and SDL2. Read more
+Out Of Memory 2D Shooter game made in 48 hrs. Read more
+You Are Not Alone 2D Platformer puzzle solving game made in 48 hours. Read more
+Sky Towers First person shooter made in 7 days. Read more
+Rescue Game 2D shooter made in 7 days. Read more</description>
+    </item>
+    
+    <item>
+      <title>Rescue Game</title>
+      <link>https://abhayjoshi-dev.github.io/rescuegame/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhayjoshi-dev.github.io/rescuegame/</guid>
+      <description> 2D Shooter
+Rescue Game is a 2d shooter game made for a Game Jam.
+This game was made in 7 days with the help of another programmer.
+Implemented game mechanics and core programming(Player Shooting/Enemy Movement) with C# in Unity Engine.
+You can download the game from itch.io:
+Rescue Game by Abhay_Joshi, Abhishek Joshi </description>
+    </item>
+    
+    <item>
+      <title>Sky Towers</title>
+      <link>https://abhayjoshi-dev.github.io/skytowers/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhayjoshi-dev.github.io/skytowers/</guid>
+      <description> First Person Shooter
+Sky Towers is a first person shooter made for a Game Jam.
+This game was made in 7 days with the help of another programmer.
+Implemented game mechanics and core programming(Player Shooting/UI) with C# in Unity Engine.
+You can download the game from itch.io:
+Rescue Game by Abhay_Joshi, Abhishek Joshi </description>
+    </item>
+    
+    <item>
+      <title>You Are Not Alone</title>
+      <link>https://abhayjoshi-dev.github.io/youarenotalone/</link>
+      <pubDate>Tue, 25 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhayjoshi-dev.github.io/youarenotalone/</guid>
+      <description> 2D Platformer
+You Are Not Alone is a 2d platformer made for BYOG 2021 Game Jam.
+This game was made in 48 hrs with the help of another programmer.
+Implemented game mechanics and core programming(Player Movement/Character Switching) with C# in Unity Engine.
+You can download the game from itch.io:
+Rescue Game by Abhay_Joshi, Abhishek Joshi </description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://abhayjoshi-dev.github.io/about/</link>
+      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://abhayjoshi-dev.github.io/about/</guid>
+      <description>Resume
+Hi! I&amp;rsquo;m Abhay, a hardworking programmer. I am passionate about programming and game development. I&amp;rsquo;m always eager to learn and leverage my skills. I am aware of my shortcomings and am working to improve them.
+Over the years though i&amp;rsquo;ve honed my experience with the following:
+Languages: C/C++, C#. Version Control Software: Git Project Management Tools: Trello Software: Visual Studio, Visual Studio Code. Engines: Unity and other industry leading proprietary technologies.</description>
+    </item>
+    
+  </channel>
+</rss>
