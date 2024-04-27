@@ -9,7 +9,7 @@
     <meta name="robots" content="noodp" />
     <title>Space Invaders - Abhay Joshi</title><meta name="Description" content=""><meta property="og:title" content="Space Invaders" />
 <meta property="og:description" content="&lt; Go Back A Clone of Space Invaders written in C&#43;&#43; using SDL2 and SDL_image. Source code is available on Github
-Project InfoRole: Game Programmer Team Size: 1 Language: C&#43;&#43; Libraries: SDL2, SDL_image and SDL_mixer ImplementationUsed SDL2 for 2D rendering and input.
+Project InfoLanguage: C&#43;&#43; Libraries: SDL2, SDL_image and SDL_mixer ImplementationUsed SDL2 for 2D rendering and input.
 Every object in the game is derived from the Entity class which has Update(), Render() and HandleInputs() virtual functions, These functions can be overriden.
 class Entity { public: Entity(const Vector&amp; pos, const std::string&amp; key, const float&amp; scale, const std::string&amp; tag); virtual ~Entity() = default; virtual void Update(); virtual void Render(SDL_Renderer* renderer); virtual void HandleEvents(SDL_Event&amp; event); virtual bool Destroy(); public: Vector m_position; SDL_Rect m_textureRect; std::string m_tag; protected: float m_scale; SDL_Texture* m_texture; }; All the game entities are stored in a std::vector in the Game class and allocated on the heap during game initialization, The Game calls Update(), Render() and HandleInputs() functions for every entity if they have overriden them." />
 <meta property="og:type" content="article" />
@@ -21,7 +21,7 @@ class Entity { public: Entity(const Vector&amp; pos, const std::string&amp; key,
 <meta name="twitter:image" content="http://localhost:1313/space-invaders/featured.gif"/>
 <meta name="twitter:title" content="Space Invaders"/>
 <meta name="twitter:description" content="&lt; Go Back A Clone of Space Invaders written in C&#43;&#43; using SDL2 and SDL_image. Source code is available on Github
-Project InfoRole: Game Programmer Team Size: 1 Language: C&#43;&#43; Libraries: SDL2, SDL_image and SDL_mixer ImplementationUsed SDL2 for 2D rendering and input.
+Project InfoLanguage: C&#43;&#43; Libraries: SDL2, SDL_image and SDL_mixer ImplementationUsed SDL2 for 2D rendering and input.
 Every object in the game is derived from the Entity class which has Update(), Render() and HandleInputs() virtual functions, These functions can be overriden.
 class Entity { public: Entity(const Vector&amp; pos, const std::string&amp; key, const float&amp; scale, const std::string&amp; tag); virtual ~Entity() = default; virtual void Update(); virtual void Render(SDL_Renderer* renderer); virtual void HandleEvents(SDL_Event&amp; event); virtual bool Destroy(); public: Vector m_position; SDL_Rect m_textureRect; std::string m_tag; protected: float m_scale; SDL_Texture* m_texture; }; All the game entities are stored in a std::vector in the Game class and allocated on the heap during game initialization, The Game calls Update(), Render() and HandleInputs() functions for every entity if they have overriden them."/>
 <meta name="twitter:site" content="@Abhay_029"/>
@@ -40,7 +40,7 @@ class Entity { public: Entity(const Vector&amp; pos, const std::string&amp; key,
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/localhost:1313\/space-invaders\/"
-        },"genre": "page","wordcount":  416 ,
+        },"genre": "page","wordcount":  410 ,
         "url": "http:\/\/localhost:1313\/space-invaders\/","datePublished": "2023-11-21T12:48:24+05:30","dateModified": "2023-11-21T12:48:24+05:30","publisher": {
             "@type": "Organization",
             "name": "Abhay Joshi"},"author": {
@@ -94,9 +94,8 @@ class Entity { public: Entity(const Vector&amp; pos, const std::string&amp; key,
     <div id="search-dropdown-mobile"></div>
 </div>
 <main class="main">
-            <div class="container"><div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">Space Invaders</h1><div class="content" id="content"><div id="id-1"><h3 id="-go-backprojects" class="headerLink">
-    <a href="#-go-backprojects" class="header-mark"></a><a href="/projects/" rel=""><strong>&lt; Go Back</strong></a></h3></div>
-<blockquote>
+            <div class="container"><div class="page single special"><h1 class="single-title animate__animated animate__pulse animate__faster">Space Invaders</h1><div class="content" id="content"><h3 id="-go-backprojects" class="headerLink">
+    <a href="#-go-backprojects" class="header-mark"></a><a href="/projects/" rel=""><strong>&lt; Go Back</strong></a></h3><blockquote>
 <p>A Clone of <a href="https://en.m.wikipedia.org/wiki/Space_Invaders" target="_blank" rel="noopener noreferrer">Space Invaders</a> written in C++ using <a href="https://www.libsdl.org/" target="_blank" rel="noopener noreferrer">SDL2</a> and <a href="https://github.com/libsdl-org/SDL_image" target="_blank" rel="noopener noreferrer">SDL_image</a>. Source code is available on <a href="https://github.com/AbhayJoshi-Dev/Space-Invaders" target="_blank" rel="noopener noreferrer">Github</a></p>
 </blockquote>
 <p><figure><a class="lightgallery" href="/space-invaders/featured.gif" title="/space-invaders/featured.gif" data-thumbnail="/space-invaders/featured.gif">
@@ -114,8 +113,6 @@ class Entity { public: Entity(const Vector&amp; pos, const std::string&amp; key,
         </div>
         <div class="details-content">
             <div class="admonition-content"><ul>
-<li>Role: Game Programmer</li>
-<li>Team Size: 1</li>
 <li>Language: C++</li>
 <li>Libraries: SDL2, SDL_image and SDL_mixer</li>
 </ul>
@@ -123,7 +120,7 @@ class Entity { public: Entity(const Vector&amp; pos, const std::string&amp; key,
         </div>
     </div>
 <h3 id="implementation" class="headerLink">
-    <a href="#implementation" class="header-mark"></a>Implementation</h3><div id="id-2"><p>Used <a href="https://github.com/libsdl-org/SDL" target="_blank" rel="noopener noreferrer">SDL2</a> for 2D rendering and input.</p>
+    <a href="#implementation" class="header-mark"></a>Implementation</h3><div id="id-1"><p>Used <a href="https://github.com/libsdl-org/SDL" target="_blank" rel="noopener noreferrer">SDL2</a> for 2D rendering and input.</p>
 <p>Every object in the game is derived from the <strong>Entity</strong> class which has <em>Update()</em>, <em>Render()</em> and <em>HandleInputs()</em> virtual functions, These functions can be overriden.</p>
 </div>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Entity.hpp" data-lang="Entity.hpp"><span class="line"><span class="cl">    <span class="k">class</span> <span class="nc">Entity</span>
@@ -144,7 +141,7 @@ class Entity { public: Entity(const Vector&amp; pos, const std::string&amp; key,
 </span></span><span class="line"><span class="cl">        <span class="kt">float</span> <span class="n">m_scale</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">        <span class="n">SDL_Texture</span><span class="o">*</span> <span class="n">m_texture</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">};</span>
-</span></span></code></pre></div><div id="id-3"><p>All the game entities are stored in a <code>std::vector</code> in the <strong>Game</strong> class and allocated on the heap during game initialization, The <strong>Game</strong> calls <em>Update()</em>, <em>Render()</em> and <em>HandleInputs()</em> functions for every entity if they have overriden them.</p>
+</span></span></code></pre></div><div id="id-2"><p>All the game entities are stored in a <code>std::vector</code> in the <strong>Game</strong> class and allocated on the heap during game initialization, The <strong>Game</strong> calls <em>Update()</em>, <em>Render()</em> and <em>HandleInputs()</em> functions for every entity if they have overriden them.</p>
 <p>Every object that has collision is derived from the <strong>ICollidable</strong> interface, And <strong>Utils.h</strong> has the basic check for AABB collision detection.</p>
 </div>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-ICollidable.hpp" data-lang="ICollidable.hpp"><span class="line"><span class="cl">    <span class="k">class</span> <span class="nc">ICollidable</span>
@@ -156,7 +153,7 @@ class Entity { public: Entity(const Vector&amp; pos, const std::string&amp; key,
 </span></span><span class="line"><span class="cl">    <span class="p">};</span>
 </span></span></code></pre></div><p>The <em>OnCollision()</em> function is just to write the gameplay logic after collision.</p>
 <h4 id="texture-loading" class="headerLink">
-    <a href="#texture-loading" class="header-mark"></a>Texture Loading</h4><div id="id-4"><p>For texture loading I used <a href="https://github.com/libsdl-org/SDL_image" target="_blank" rel="noopener noreferrer">SDL_image</a>. All the textures are loaded in an <code>unordered_map</code> in the <strong>AssetManager</strong> class. The <em>Load()</em> function load textures from the given <code>filePath</code> with the help of SDL_image&rsquo;s <a href="https://wiki.libsdl.org/SDL2_image/IMG_LoadTexture" target="_blank" rel="noopener noreferrer">IMG_LoadTexture</a> function and stores them in the <code>m_assetMap</code> with the given <code>key</code>. This function is called during game initialization.</p>
+    <a href="#texture-loading" class="header-mark"></a>Texture Loading</h4><div id="id-3"><p>For texture loading I used <a href="https://github.com/libsdl-org/SDL_image" target="_blank" rel="noopener noreferrer">SDL_image</a>. All the textures are loaded in an <code>unordered_map</code> in the <strong>AssetManager</strong> class. The <em>Load()</em> function load textures from the given <code>filePath</code> with the help of SDL_image&rsquo;s <a href="https://wiki.libsdl.org/SDL2_image/IMG_LoadTexture" target="_blank" rel="noopener noreferrer">IMG_LoadTexture</a> function and stores them in the <code>m_assetMap</code> with the given <code>key</code>. This function is called during game initialization.</p>
 <p>The <em>Get()</em> function returns the texture from the <code>m_assetMap</code> with the given <code>key</code>. It is called when an entity is initialized.</p>
 </div>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-AssetManager.hpp" data-lang="AssetManager.hpp"><span class="line"><span class="cl">    <span class="k">class</span> <span class="nc">AssetManager</span>
@@ -181,12 +178,12 @@ class Entity { public: Entity(const Vector&amp; pos, const std::string&amp; key,
 </span></span><span class="line"><span class="cl">        <span class="n">std</span><span class="o">::</span><span class="n">unordered_map</span> <span class="o">&lt;</span> <span class="n">std</span><span class="o">::</span><span class="n">string</span><span class="p">,</span> <span class="n">SDL_Texture</span><span class="o">*&gt;</span> <span class="n">m_assetMap</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">    <span class="p">};</span>
 </span></span></code></pre></div><h4 id="audio" class="headerLink">
-    <a href="#audio" class="header-mark"></a>Audio</h4><div id="id-5">For audio <a href="https://github.com/libsdl-org/SDL_mixer" target="_blank" rel="noopener noreferrer">SDL_mixer</a> is used. Audio loading is similar to texture loading and it&rsquo;s written in the <strong>SoundManager</strong> class. It also uses an <code>unordered_map</code> for storing <code>Mix_Chunk</code> object which is loaded by the <em>Load()</em> function. The <em>Load()</em> function uses <a href="https://wiki.libsdl.org/SDL2_mixer/Mix_LoadWAV" target="_blank" rel="noopener noreferrer">Mix_LoadWAV()</a> function to load <code>Mix_Chunk</code> from a <code>.wav</code> file.</div>
+    <a href="#audio" class="header-mark"></a>Audio</h4><div id="id-4">For audio <a href="https://github.com/libsdl-org/SDL_mixer" target="_blank" rel="noopener noreferrer">SDL_mixer</a> is used. Audio loading is similar to texture loading and it&rsquo;s written in the <strong>SoundManager</strong> class. It also uses an <code>unordered_map</code> for storing <code>Mix_Chunk</code> object which is loaded by the <em>Load()</em> function. The <em>Load()</em> function uses <a href="https://wiki.libsdl.org/SDL2_mixer/Mix_LoadWAV" target="_blank" rel="noopener noreferrer">Mix_LoadWAV()</a> function to load <code>Mix_Chunk</code> from a <code>.wav</code> file.</div>
 <h4 id="what-i-learned" class="headerLink">
-    <a href="#what-i-learned" class="header-mark"></a>What I learned</h4><div id="id-6">While working on the project I learned about basic object oriented features like <strong>Inheritance</strong>. Learned how to use and implement interfaces. I also gained understading of <code>std::unordered_map</code>. Learned about memory management, all the entities are stored into the heap and the memory is deallocated when necessary.</div>
+    <a href="#what-i-learned" class="header-mark"></a>What I learned</h4><div id="id-5">While working on the project I learned about basic object oriented features like <strong>Inheritance</strong>. Learned how to use and implement interfaces. I also gained understading of <code>std::unordered_map</code>. Learned about memory management, all the entities are stored into the heap and the memory is deallocated when necessary.</div>
 </div></div></div>
         </main><footer class="footer">
-        <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank" rel="noopener noreferrer">Abhay Joshi</a></span></div>
+        <div class="footer-container"><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2024</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank" rel="noopener noreferrer">Abhay Joshi</a></span></div>
             <div class="footer-line"></div>
             <div class="footer-line">
             </div>
@@ -197,7 +194,7 @@ class Entity { public: Entity(const Vector&amp; pos, const std::string&amp; key,
         </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
             <i class="fas fa-comment fa-fw"></i>
         </a>
-    </div><div class="assets"><link rel="stylesheet" href="/css/c32675.min.css"><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{}};</script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
+    </div><div class="assets"><link rel="stylesheet" href="/css/b8786b.min.css"><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{}};</script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
 </body>
 
 </html>
