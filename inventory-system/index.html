@@ -9,8 +9,7 @@
     <meta name="robots" content="noodp" />
     <title>Inventory System - Abhay Joshi</title><meta name="Description" content=""><meta property="og:title" content="Inventory System" />
 <meta property="og:description" content="&lt; Go Back A grid based Inventory System written in C&#43;&#43; in Unreal Engine 5. Source code is available on github.
-Project InfoLanguage: C&#43;&#43; Engine: Unreal Engine ImplementationThis project was developed for the purpose of learning Unreal Engine. The Pickup system is based on this tutorial and the grid inventory system is developed in C&#43;&#43; using this blueprint based tutorial as a reference.
-Item PickupThe pickup system is simple: if a line trace from the player&rsquo;s crosshair intersects with an actor that implements the required interface, the player can pick up the actor." />
+Project InfoLanguage: C&#43;&#43; Engine: Unreal Engine ImplementationThis project was developed for the purpose of learning Unreal Engine. The Pickup system is based on this tutorial and the grid inventory system is developed in C&#43;&#43; using this blueprint based tutorial as a reference. Item PickupThe pickup system is simple: if a line trace from the player&rsquo;s crosshair intersects with an actor that implements the required interface, the player can pick up the actor." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/inventory-system/" /><meta property="og:image" content="http://localhost:1313/inventory-system/featured.gif"/><meta property="article:section" content="" />
 <meta property="article:published_time" content="2023-11-21T12:48:24+05:30" />
@@ -20,8 +19,7 @@ Item PickupThe pickup system is simple: if a line trace from the player&rsquo;s 
 <meta name="twitter:image" content="http://localhost:1313/inventory-system/featured.gif"/>
 <meta name="twitter:title" content="Inventory System"/>
 <meta name="twitter:description" content="&lt; Go Back A grid based Inventory System written in C&#43;&#43; in Unreal Engine 5. Source code is available on github.
-Project InfoLanguage: C&#43;&#43; Engine: Unreal Engine ImplementationThis project was developed for the purpose of learning Unreal Engine. The Pickup system is based on this tutorial and the grid inventory system is developed in C&#43;&#43; using this blueprint based tutorial as a reference.
-Item PickupThe pickup system is simple: if a line trace from the player&rsquo;s crosshair intersects with an actor that implements the required interface, the player can pick up the actor."/>
+Project InfoLanguage: C&#43;&#43; Engine: Unreal Engine ImplementationThis project was developed for the purpose of learning Unreal Engine. The Pickup system is based on this tutorial and the grid inventory system is developed in C&#43;&#43; using this blueprint based tutorial as a reference. Item PickupThe pickup system is simple: if a line trace from the player&rsquo;s crosshair intersects with an actor that implements the required interface, the player can pick up the actor."/>
 <meta name="twitter:site" content="@Abhay_029"/>
 <meta name="application-name" content="Abhay Joshi">
 <meta name="apple-mobile-web-app-title" content="Abhay Joshi">
@@ -118,9 +116,9 @@ Item PickupThe pickup system is simple: if a line trace from the player&rsquo;s 
         </div>
     </div>
 <h3 id="implementation" class="headerLink">
-    <a href="#implementation" class="header-mark"></a>Implementation</h3><p>This project was developed for the purpose of learning Unreal Engine. The Pickup system is based on <a href="https://youtu.be/cPgtd4m5-EI?si=U6A7YmCMtWjsH8Lo" target="_blank" rel="noopener noreferrer">this</a> tutorial and the grid inventory system is developed in C++ using <a href="https://youtu.be/4CjpBoKl6s8?si=-sGbfq4p2bokEzZ9" target="_blank" rel="noopener noreferrer">this</a> blueprint based tutorial as a reference.</p>
+    <a href="#implementation" class="header-mark"></a>Implementation</h3><div id="id-1">This project was developed for the purpose of learning Unreal Engine. The Pickup system is based on <a href="https://youtu.be/cPgtd4m5-EI?si=U6A7YmCMtWjsH8Lo" target="_blank" rel="noopener noreferrer">this</a> tutorial and the grid inventory system is developed in C++ using <a href="https://youtu.be/4CjpBoKl6s8?si=-sGbfq4p2bokEzZ9" target="_blank" rel="noopener noreferrer">this</a> blueprint based tutorial as a reference.</div>
 <h5 id="item-pickup" class="headerLink">
-    <a href="#item-pickup" class="header-mark"></a>Item Pickup</h5><p>The pickup system is simple: if a line trace from the player&rsquo;s crosshair intersects with an actor that implements the required interface, the player can pick up the actor.</p>
+    <a href="#item-pickup" class="header-mark"></a>Item Pickup</h5><div id="id-2">The pickup system is simple: if a line trace from the player&rsquo;s crosshair intersects with an actor that implements the required interface, the player can pick up the actor.</div>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-.cpp" data-lang=".cpp"><span class="line"><span class="cl">	<span class="n">FVector</span> <span class="n">TraceStart</span> <span class="o">=</span> <span class="n">CameraComponent</span><span class="o">-&gt;</span><span class="n">GetComponentLocation</span><span class="p">();</span>
 </span></span><span class="line"><span class="cl">	<span class="n">FVector</span> <span class="n">TraceEnd</span> <span class="o">=</span> <span class="n">TraceStart</span> <span class="o">+</span> <span class="n">CameraComponent</span><span class="o">-&gt;</span><span class="n">GetForwardVector</span><span class="p">()</span> <span class="o">*</span> <span class="n">InteractionCheckDistance</span><span class="p">;</span>
 </span></span><span class="line"><span class="cl">
@@ -149,9 +147,9 @@ Item PickupThe pickup system is simple: if a line trace from the player&rsquo;s 
             alt="/inventory-system/pickup.gif" height="450"  width="800" >
     </a></figure></p>
 <h5 id="inventory-component" class="headerLink">
-    <a href="#inventory-component" class="header-mark"></a>Inventory Component</h5><p>Items in the inventory are stored in a <code>TArray</code> of type <code>UItemBase</code>( <a href="https://github.com/AbhayJoshi-Dev/InventorySystem/blob/main/Source/Inventory/Public/Items/ItemBase.h" target="_blank" rel="noopener noreferrer">ItemBase.h</a> for more info ), pick up of an item in the inventory array is based on item&rsquo;s dimensions and space in inventory array.
+    <a href="#inventory-component" class="header-mark"></a>Inventory Component</h5><div id="id-3">Items in the inventory are stored in a <code>TArray</code> of type <code>UItemBase</code>( <a href="https://github.com/AbhayJoshi-Dev/InventorySystem/blob/main/Source/Inventory/Public/Items/ItemBase.h" target="_blank" rel="noopener noreferrer">ItemBase.h</a> for more info ), pick up of an item in the inventory array is based on item&rsquo;s dimensions and space in inventory array.
 Each tile in the inventory is referenced to each element in the inventory array.
-The <code>IsRoomAvailable</code> member function is responsible for checking for enough space in the inventory array which is later called during item pick up and item drag drop.</p>
+The <code>IsRoomAvailable</code> member function is responsible for checking for enough space in the inventory array which is later called during item pick up and item drag drop.</div>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-.cpp" data-lang=".cpp"><span class="line"><span class="cl"><span class="kt">bool</span> <span class="n">UInventoryComponent</span><span class="o">::</span><span class="n">IsRoomAvailable</span><span class="p">(</span><span class="n">UItemBase</span><span class="o">*</span> <span class="n">Item</span><span class="p">,</span> <span class="n">int32</span> <span class="n">TopLeftIndex</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
 </span></span><span class="line"><span class="cl">	<span class="k">const</span> <span class="n">FTile</span> <span class="n">Tile</span> <span class="o">=</span> <span class="n">IndexToTile</span><span class="p">(</span><span class="n">TopLeftIndex</span><span class="p">);</span>
@@ -175,8 +173,8 @@ The <code>IsRoomAvailable</code> member function is responsible for checking for
 </span></span><span class="line"><span class="cl"><span class="p">}</span>
 </span></span></code></pre></div><p>for more details on inventory component see <a href="https://github.com/AbhayJoshi-Dev/InventorySystem/blob/main/Source/Inventory/Private/Components/InventoryComponent.cpp" target="_blank" rel="noopener noreferrer">InventoryComponent.cpp</a></p>
 <h5 id="item-drag-and-drop" class="headerLink">
-    <a href="#item-drag-and-drop" class="header-mark"></a>Item drag and drop</h5><p>All drag and drop operations was easily implemented using Unreal&rsquo;s native virtual functions, such as <code>NativeOnDragDetected</code> and <code>NativeOnDrop</code>.
-The dragged item was passed between widget classes with the help of Unreal&rsquo;s <code>UDragDropOperation</code> class.</p>
+    <a href="#item-drag-and-drop" class="header-mark"></a>Item drag and drop</h5><div id="id-4">All drag and drop operations was easily implemented using Unreal&rsquo;s native virtual functions, such as <code>NativeOnDragDetected</code> and <code>NativeOnDrop</code>.
+The dragged item was passed between widget classes with the help of Unreal&rsquo;s <code>UDragDropOperation</code> class.</div>
 <p>Code snippet after detecting the initial item drag with the mouse:</p>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-.cpp" data-lang=".cpp"><span class="line"><span class="cl"><span class="kt">void</span> <span class="n">UInventoryItemSlot</span><span class="o">::</span><span class="n">NativeOnDragDetected</span><span class="p">(</span><span class="k">const</span> <span class="n">FGeometry</span><span class="o">&amp;</span> <span class="n">InGeometry</span><span class="p">,</span> <span class="k">const</span> <span class="n">FPointerEvent</span><span class="o">&amp;</span> <span class="n">InMouseEvent</span><span class="p">,</span> <span class="n">UDragDropOperation</span><span class="o">*&amp;</span> <span class="n">OutOperation</span><span class="p">)</span>
 </span></span><span class="line"><span class="cl"><span class="p">{</span>
@@ -213,7 +211,7 @@ The dragged item was passed between widget classes with the help of Unreal&rsquo
         </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
             <i class="fas fa-comment fa-fw"></i>
         </a>
-    </div><div class="assets"><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{}};</script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
+    </div><div class="assets"><link rel="stylesheet" href="/css/1d1d9d.min.css"><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{}};</script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/js/theme.min.js" defer></script></div>
 </body>
 
 </html>
