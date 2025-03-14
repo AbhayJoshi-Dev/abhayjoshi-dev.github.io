@@ -3,8 +3,8 @@
         <title>Abhay Joshi</title>
         <link>http://localhost:1313/</link>
         <description>Abhay Joshi</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>abhay29082003@gmail.com (Abhay Joshi)</managingEditor>
-            <webMaster>abhay29082003@gmail.com (Abhay Joshi)</webMaster>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>abhayjoshi.dev@gmail.com (Abhay Joshi)</managingEditor>
+            <webMaster>abhayjoshi.dev@gmail.com (Abhay Joshi)</webMaster>
             <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         </channel>
 </rss>
