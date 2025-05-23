@@ -9,7 +9,7 @@
     <meta name="robots" content="noodp" />
     <title>Inventory System - Abhay Joshi</title><meta name="Description" content=""><meta property="og:title" content="Inventory System" />
 <meta property="og:description" content="&lt; Go Back A grid based Inventory System written in C&#43;&#43; in Unreal Engine 5. Source code is available on github.
-Project InfoLanguage: C&#43;&#43; Engine: Unreal Engine ImplementationThis project was developed for the purpose of learning Unreal Engine. The Pickup system is based on this tutorial and the grid inventory system is developed in C&#43;&#43; using this blueprint based tutorial as a reference. Item PickupThe pickup system is simple: if a line trace from the player&rsquo;s crosshair intersects with an actor that implements the required interface, the player can pick up the actor." />
+Project InfoLanguage: C&#43;&#43; Engine: Unreal Engine ImplementationThis project was developed for the purpose of learning Unreal Engine. The Pickup system is based on this tutorial and the grid inventory system is developed in C&#43;&#43; using this blueprint based tutorial as a reference. Weapons models are from this free marketplace asset." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://localhost:1313/inventory-system/" /><meta property="og:image" content="http://localhost:1313/inventory-system/featured.gif"/><meta property="article:section" content="" />
 <meta property="article:published_time" content="2023-11-21T12:48:24+05:30" />
@@ -19,7 +19,7 @@ Project InfoLanguage: C&#43;&#43; Engine: Unreal Engine ImplementationThis proj
 <meta name="twitter:image" content="http://localhost:1313/inventory-system/featured.gif"/>
 <meta name="twitter:title" content="Inventory System"/>
 <meta name="twitter:description" content="&lt; Go Back A grid based Inventory System written in C&#43;&#43; in Unreal Engine 5. Source code is available on github.
-Project InfoLanguage: C&#43;&#43; Engine: Unreal Engine ImplementationThis project was developed for the purpose of learning Unreal Engine. The Pickup system is based on this tutorial and the grid inventory system is developed in C&#43;&#43; using this blueprint based tutorial as a reference. Item PickupThe pickup system is simple: if a line trace from the player&rsquo;s crosshair intersects with an actor that implements the required interface, the player can pick up the actor."/>
+Project InfoLanguage: C&#43;&#43; Engine: Unreal Engine ImplementationThis project was developed for the purpose of learning Unreal Engine. The Pickup system is based on this tutorial and the grid inventory system is developed in C&#43;&#43; using this blueprint based tutorial as a reference. Weapons models are from this free marketplace asset."/>
 <meta name="twitter:site" content="@Abhay_029"/>
 <meta name="application-name" content="Abhay Joshi">
 <meta name="apple-mobile-web-app-title" content="Abhay Joshi">
@@ -36,7 +36,7 @@ Project InfoLanguage: C&#43;&#43; Engine: Unreal Engine ImplementationThis proj
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "http:\/\/localhost:1313\/inventory-system\/"
-        },"genre": "page","wordcount":  425 ,
+        },"genre": "page","wordcount":  433 ,
         "url": "http:\/\/localhost:1313\/inventory-system\/","datePublished": "2023-11-21T12:48:24+05:30","dateModified": "2023-11-21T12:48:24+05:30","publisher": {
             "@type": "Organization",
             "name": "Abhay Joshi"},"author": {
@@ -116,7 +116,8 @@ Project InfoLanguage: C&#43;&#43; Engine: Unreal Engine ImplementationThis proj
         </div>
     </div>
 <h3 id="implementation" class="headerLink">
-    <a href="#implementation" class="header-mark"></a>Implementation</h3><div id="id-1">This project was developed for the purpose of learning Unreal Engine. The Pickup system is based on <a href="https://youtu.be/cPgtd4m5-EI?si=U6A7YmCMtWjsH8Lo" target="_blank" rel="noopener noreferrer">this</a> tutorial and the grid inventory system is developed in C++ using <a href="https://youtu.be/4CjpBoKl6s8?si=-sGbfq4p2bokEzZ9" target="_blank" rel="noopener noreferrer">this</a> blueprint based tutorial as a reference.</div>
+    <a href="#implementation" class="header-mark"></a>Implementation</h3><div id="id-1">This project was developed for the purpose of learning Unreal Engine. The Pickup system is based on <a href="https://youtu.be/cPgtd4m5-EI?si=U6A7YmCMtWjsH8Lo" target="_blank" rel="noopener noreferrer">this</a> tutorial and the grid inventory system is developed in C++ using <a href="https://youtu.be/4CjpBoKl6s8?si=-sGbfq4p2bokEzZ9" target="_blank" rel="noopener noreferrer">this</a> blueprint based tutorial as a reference.
+Weapons models are from <a href="https://www.fab.com/listings/8aeb9c48-b404-4dcd-9e56-1d0ecedba7f5" target="_blank" rel="noopener noreferrer">this</a> free marketplace asset.</div>
 <h5 id="item-pickup" class="headerLink">
     <a href="#item-pickup" class="header-mark"></a>Item Pickup</h5><div id="id-2">The pickup system is simple: if a line trace from the player&rsquo;s crosshair intersects with an actor that implements the required interface, the player can pick up the actor.</div>
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-.cpp" data-lang=".cpp"><span class="line"><span class="cl">	<span class="n">FVector</span> <span class="n">TraceStart</span> <span class="o">=</span> <span class="n">CameraComponent</span><span class="o">-&gt;</span><span class="n">GetComponentLocation</span><span class="p">();</span>
