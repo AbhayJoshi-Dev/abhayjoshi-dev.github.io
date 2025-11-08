@@ -24,11 +24,10 @@ class Entity { public: Entity(const Vector&amp; pos, const std::string&amp; key,
 Project InfoLanguage: C&#43;&#43; Libraries: SDL2, SDL_image and SDL_mixer ImplementationUsed SDL2 for 2D rendering and input.
 Every object in the game is derived from the Entity class which has Update(), Render() and HandleInputs() virtual functions, These functions can be overriden.
 class Entity { public: Entity(const Vector&amp; pos, const std::string&amp; key, const float&amp; scale, const std::string&amp; tag); virtual ~Entity() = default; virtual void Update(); virtual void Render(SDL_Renderer* renderer); virtual void HandleEvents(SDL_Event&amp; event); virtual bool Destroy(); public: Vector m_position; SDL_Rect m_textureRect; std::string m_tag; protected: float m_scale; SDL_Texture* m_texture; }; All the game entities are stored in a std::vector in the Game class and allocated on the heap during game initialization, The Game calls Update(), Render() and HandleInputs() functions for every entity if they have overriden them."/>
-<meta name="twitter:site" content="@Abhay_029"/>
 <meta name="application-name" content="Abhay Joshi">
 <meta name="apple-mobile-web-app-title" content="Abhay Joshi">
 
-<meta name="theme-color" content="#f8f8f8"><meta name="twitter:creator" content="@Abhay_029" /><link rel="canonical" href="http://localhost:1313/space-invaders/" /><link rel="prev" href="http://localhost:1313/cellular-automaton/" /><link rel="next" href="http://localhost:1313/inventory-system/" />
+<meta name="theme-color" content="#f8f8f8"><link rel="canonical" href="http://localhost:1313/space-invaders/" /><link rel="prev" href="http://localhost:1313/cellular-automaton/" /><link rel="next" href="http://localhost:1313/inventory-system/" />
 <link rel="stylesheet" href="/css/main.css"><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/color.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/fontawesome-free/all.min.css">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'" href="/lib/animate/animate.min.css">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
